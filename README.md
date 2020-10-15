@@ -4,34 +4,34 @@
 
 ### Painel e botões do elevador
 
-Dado que cliquei no botão de qualquer andar no painel
+Dado que cliquei no botão de qualquer andar no painel  
 O botão clicado deve ficar ativo
 
-Dado que estou indo para um andar superior ao atual
+Dado que estou indo para um andar superior ao atual  
 No painel deve aparecer a palavra "Subindo..."
 
-Dado que estou indo para um andar Inferior ao atual
+Dado que estou indo para um andar Inferior ao atual  
 No painel deve aparecer a palavra "Descendo..."
 
-Dado que, cliquei em qualquer andar
+Dado que, cliquei em qualquer andar  
 O painel deve exibir os andares conforme minha posição atual (exemplo, 1° Andar, 2° Andar, etc...)
 
 ### Elevador
 
-Dado que esteja no andar térreo
+Dado que esteja no andar térreo  
 O elevador só pode subir
 
-Dado que esteja no últmo andar
+Dado que esteja no últmo andar  
 O elevador só pode descer
 
-Dado que eu clique em mais de um andar
-O elevador deve parar nos respectivos andares por ordem de seleção (clique em cada botão do painel)
+Dado que eu clique em mais de um andar  
+O elevador deve parar nos respectivos andares por ordem de seleção (clique em cada botão do painel)  
 Exemplo: cliquei na seguinte ordem: 1, 6, 5 - O elevador sobe até o 1° andar, depois para o 6° andar e por último volta até o 5° andar
 
-Dado que cliquei em mais de um andar
+Dado que cliquei em mais de um andar  
 O elevador deve permanecer no andar atual por no máximo 3 segundos e ir para o próximo andar
 
-Dado que estou no térreo, cliquei no 10 andar e depois, cliquei no 6 andar
+Dado que estou no térreo, cliquei no 10 andar e depois, cliquei no 6 andar  
 O elevador deve ir primeiro ao 10 andar e depois descer para o 6 andar
 
 ## Bindings
