@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Elevator Challenge</title>
+    <meta charset="UTF-8" />
+		<link rel="stylesheet" href="./src/styles/normalize.css" />
+		<link rel="stylesheet" href="./src/styles/main.css" />
+  </head>
+  <body>
+    <div id="app" class="app">
+      <aside id="elevator-panel" class="elevator-panel">
+        <div id="elevator-display" class="elevator-panel__display">
+					<h2 data-display-floor="0">1° Andar<h2>
+					<h3 data-elevator-state="up" class="active">Subindo...</h3>
+					<h3 data-elevator-state="down" class="">Descendo...</h3>
+				</div>
+				<ul id="elevator-buttons" class="elevator-panel__buttons">
+					<li><button class="elevator-button" data-elevator-button="10">10</button></li>
+					<li><button class="elevator-button" data-elevator-button="9">9</button></li>
+					<li><button class="elevator-button" data-elevator-button="8">8</button></li>
+					<li><button class="elevator-button" data-elevator-button="7">7</button></li>
+					<li><button class="elevator-button" data-elevator-button="6">6</button></li>
+					<li><button class="elevator-button" data-elevator-button="5">5</button></li>
+					<li><button class="elevator-button" data-elevator-button="4">4</button></li>
+					<li><button class="elevator-button" data-elevator-button="3">3</button></li>
+					<li><button class="elevator-button" data-elevator-button="2">2</button></li>
+					<li><button class="elevator-button" data-elevator-button="1">1</button></li>
+					<li class="elevator-item-first"><button class="elevator-button active" data-elevator-button="0">T</button></li>
+				</ul>
+			</aside>
+			<section class="bulding-place">
+				<div id="buiding" class="building">
+					<ul id="buiding-floors" class="building__floors">
+						<li class="building-floor" data-floor="10">10° Andar</li>
+						<li class="building-floor" data-floor="9">9° Andar</li>
+						<li class="building-floor" data-floor="8">8° Andar</li>
+						<li class="building-floor" data-floor="7">7° Andar</li>
+						<li class="building-floor" data-floor="6">6° Andar</li>
+						<li class="building-floor" data-floor="5">5° Andar</li>
+						<li class="building-floor" data-floor="4">4° Andar</li>
+						<li class="building-floor" data-floor="3">3° Andar</li>
+						<li class="building-floor" data-floor="2">2° Andar</li>
+						<li class="building-floor" data-floor="1">1° Andar</li>
+						<li class="building-floor" data-floor="0">Térreo</li>
+					</ul>
+					<div id="elevator-car" class="elevator-car">
+						<span class="door door-left"></span>
+						<span class="door door-right"></span>
+					</div>
+				</div>
+			</section>
+    </div>
+    <script src="src/scripts/index.js"></script>
+  </body>
+</html>
